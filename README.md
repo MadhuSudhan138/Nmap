@@ -21,19 +21,15 @@ An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organ
 | **No Memorization** | Every scan's flags are pre-built and explained |
 
 ---
-# 🎯 Nmap Scanner Pro
-
-Interactive menu-driven nmap wrapper — 60+ scans, 8 categories.
+# Nmap Scanner Pro Install cmd
 
 ```bash
-git clone 
+git clone https://github.com/MadhuSudhan138/Nmap.git
 pip install rich
 python3 nmap.py
 ```
-
-## Demo
-
 #	Category	Scans
+
 1	Basic Scans	7
 2	Scan Techniques	12
 3	Service & OS Detection	9
@@ -45,6 +41,7 @@ python3 nmap.py
 9	⭐ Quick Picks	10
 
 #	Scan	Command (Basic Scans)
+
 1	Quick Scan (Top 100)	nmap -T4 -F {t}
 2	Aggressive (-A)	nmap -A {t}
 3	Full Port + Version	nmap -T4 -sV -p- {t}
