@@ -59,4 +59,4 @@ python3 nmap.py
 
 # ⚠️ Disclaimer
 
-For authorized testing only. Unauthorized scanning is illegal
+This tool is provided for educational purposes and authorized security testing only. Users are responsible for complying with all applicable laws and obtaining proper authorization before scanning any systems.
