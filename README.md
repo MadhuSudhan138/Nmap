@@ -59,4 +59,4 @@ python3 nmap.py
 
 # ⚠️ Disclaimer
 
-![For authorized testing only. Unauthorized scanning is illegal.]
+![For authorized testing only. Unauthorized scanning is illegal](https://img.shields.io/badge/python-3.8%2B-blue)
