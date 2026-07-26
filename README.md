@@ -1,4 +1,4 @@
-# 🎯 Nmap Scanner Pro
+#  Nmap Scanner Pro
 
 An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organized into 8 categories. Pick a scan, enter a target, and go — no need to remember flags.
 
@@ -8,7 +8,7 @@ An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organ
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -21,11 +21,15 @@ An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organ
 | **No Memorization** | Every scan's flags are pre-built and explained |
 
 ---
+# Useage
+
+Pick category → Pick scan → Enter IP → Confirm → Done
+
 # Nmap Scanner Pro Install cmd
 
 ```bash
-git clone https://github.com/MadhuSudhan138/Nmap.git
 pip install rich
+git clone https://github.com/MadhuSudhan138/Nmap.git
 python3 nmap.py
 ```
 #	Category	Scans
@@ -52,3 +56,7 @@ python3 nmap.py
 - 8	UDP Scan (Top 50)	nmap -sU --top-ports 50 {t}
 - 9	Default Scripts (-sC)	nmap -sC {t}
 - 10	Firewall Evasion	nmap -f --source-port 53 -T2 {t}
+
+# ⚠️ Disclaimer
+
+![For authorized testing only. Unauthorized scanning is illegal.]
