@@ -1,6 +1,6 @@
 #  Nmap Scanner Pro
 
-An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organized into 8 categories. Pick a scan, enter a target, and go — no need to remember flags.
+- An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organized into 8 categories. Pick a scan, enter a target, and go — no need to remember flags.
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
