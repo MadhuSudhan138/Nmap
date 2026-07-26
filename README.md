@@ -21,5 +21,37 @@ An **interactive, menu-driven Nmap wrapper** with 60+ pre-built scan types organ
 | **No Memorization** | Every scan's flags are pre-built and explained |
 
 ---
+# 🎯 Nmap Scanner Pro
 
-## 📸 Demo
+Interactive menu-driven nmap wrapper — 60+ scans, 8 categories.
+
+```bash
+git clone 
+pip install rich
+python3 nmap.py
+```
+
+## Demo
+
+#	Category	Scans
+1	Basic Scans	7
+2	Scan Techniques	12
+3	Service & OS Detection	9
+4	NSE Script Scans	18
+5	Firewall Evasion	16
+6	Timing & Performance	14
+7	Output & Reporting	9
+8	Specialized Scans	11
+9	⭐ Quick Picks	10
+
+#	Scan	Command (Basic Scans)
+1	Quick Scan (Top 100)	nmap -T4 -F {t}
+2	Aggressive (-A)	nmap -A {t}
+3	Full Port + Version	nmap -T4 -sV -p- {t}
+4	Vulnerability Scan	nmap --script vuln {t}
+5	Ping Sweep	nmap -sn {t}
+6	SYN Stealth (root)	sudo nmap -sS -T4 {t}
+7	OS Detection	nmap -O {t}
+8	UDP Scan (Top 50)	nmap -sU --top-ports 50 {t}
+9	Default Scripts (-sC)	nmap -sC {t}
+10	Firewall Evasion	nmap -f --source-port 53 -T2 {t}
